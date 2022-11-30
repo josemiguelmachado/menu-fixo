@@ -1,0 +1,36 @@
+@charset "utf-8";
+/*Documento css*/
+
+html{scroll-behavior: smooth;}
+
+body{margin:0;}
+
+#principal{
+ width:600px;
+ margin:20px auto 20px;
+}
+
+#menu{
+ width: 100%;
+ height:auto;
+ display: flex;
+ justify-content: center;
+ position: fixed;
+ top:0;
+ background-color:crimson;
+ }
+
+ #menu a{
+  margin: 5px 10px;
+  font-family:arial, sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+  text-align:center;
+  text-decoration: none;
+  color:wheat;
+  }
+
+section{
+ padding: 15px 0;
+ font-size:18px;
+ }
